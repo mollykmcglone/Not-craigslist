@@ -1,3 +1,14 @@
+{{navbar-component}}
 {{#each model.sortedListings as |listing|}}
-  {{#link-to "listing" listing.id}}{{listing.title}}{{/link-to}}
+  <div class="listing">
+    {{#link-to "listing" listing.id}}
+      <img src="{{listing.photoURL}}">
+      <br>
+    {{/link-to}}
+    <span class="date">{{date listing.date}}</span>
+    {{#link-to "listing" listing.id}}
+      {{listing.title}}
+    {{/link-to}}
+    ({{listing.location}})
+  </div>
 {{/each}}

@@ -1,3 +1,9 @@
+<h1>NotCraigslist</h1>
+{{#link-to 'new-listing' -1}}<button>Create Listing</button>{{/link-to}}
+
+<h2>Categories</h2>
+<ul>
 {{#each model as |category|}}
-  {{#link-to "category" category.id}}{{category.title}}{{/link-to}}
+  <li>{{#link-to "category" category.id}}{{category.title}}{{/link-to}}</li>
 {{/each}}
+</ul>

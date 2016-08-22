@@ -1,0 +1,47 @@
+ul {
+  list-style: none;
+}
+.listing {
+  width: 300px;
+  height: 300px;
+  float: left;
+  border: solid 1px lightgrey;
+  padding: 5px;
+  margin: 7px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 0 #ddd
+}
+.listing img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.date {
+  color: grey;
+  font-size: .75em;
+}
+.full-listing img {
+  max-width: 500px;
+}
+.navbar {
+  background-color: #eee;
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 20px;
+}
+.navbar a {
+  text-decoration: none;
+}
+.home-link {
+  background-color: white;
+  border: solid 1px lightgrey;
+  border-radius: 15px;
+  padding: 3px;
+}
+.post-link {
+  float: right;
+}
