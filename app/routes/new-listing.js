@@ -20,14 +20,13 @@ export default Ember.Route.extend({
         category: inputCategory,
         date: new Date(Date.now()),
       };
-      debugger;
       var newListing = this.store.createRecord('listing', params);
       var category = params.category;
       category.get('listings').addObject(newListing);
       newListing.save().then(function(){
         return category.save();
       });
-      this.transitionTo('index');
+      this.transitionTo('listing', newListing);
     }
   }
 });
