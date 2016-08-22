@@ -3,10 +3,10 @@
 module.exports = function(environment) {
   var ENV = {
     firebase: {
-      apiKey: "AIzaSyDHERT55E2Mv1-uRxcHCbvITWS-E-LcPlw",
-      authDomain: "craigslist-clone-140aa.firebaseapp.com",
-      databaseURL: "https://craigslist-clone-140aa.firebaseio.com",
-      storageBucket: "craigslist-clone-140aa.appspot.com"
+      apiKey: "AIzaSyDA8wr8eMHhuQQPijEFUf-_6cWgM7F4B70",
+      authDomain: "not-craigslist.firebaseapp.com",
+      databaseURL: "https://not-craigslist.firebaseio.com",
+      storageBucket: "not-craigslist.appspot.com",
     },
     modulePrefix: 'craigslist-clone',
     environment: environment,

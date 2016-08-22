@@ -12,7 +12,7 @@ ul {
   box-shadow: 0 0 7px 0 #ddd
 }
 .listing img {
-  max-width: 100%;
+  max-width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -27,7 +27,7 @@ ul {
 .navbar {
   background-color: #eee;
   padding: 10px;
-  margin-top: -10px;
+  margin-top: -2px;
   margin-left: -10px;
   margin-right: -10px;
   border-bottom: solid 1px lightgrey;
@@ -40,8 +40,11 @@ ul {
   background-color: white;
   border: solid 1px lightgrey;
   border-radius: 15px;
-  padding: 3px;
+  padding: 7px;
+  margin-left: 15px;
 }
 .post-link {
   float: right;
+  margin-top: 15px;
+  margin-right: 15px;
 }
